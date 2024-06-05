@@ -4,7 +4,7 @@ import { AiOutlineTwitter,AiOutlineFacebook,AiOutlineLinkedin, } from "react-ico
 
 function Me() {
   const config = {
-       subtitle:'',
+       subtitle:'Im a frontend developer',
        social:'',
        github:'',
        ln:''
