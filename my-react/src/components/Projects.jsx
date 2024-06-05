@@ -37,9 +37,9 @@ function Projects(){
    </div> </div>
     <div className="w-full px-20 py-5  ">
         <div className='flex flex-col justify-between md:flex-row px-0 gap-10 '>
-            {config.project.map((project) =>(
+            {config.project.map((project,index) =>(
                
-                <div className='relative'>
+                <div  className='relative'key={index} >
                 <img className='h-[200px]  im' src={project.Image} alt="" />
                 <div className='proj-dep'> 
                     <p  className='text-center px-5 py-5'>{project.descryption}</p>
