@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+header ul li {
+  @apply px-4
+}
+
+.he{
+  display: flex;
+  justify-content: space-between;
+  @apply px-5 py-5;
+  background-color:rgb(22, 17, 17)
+}
+.img1{
+   filter: drop-shadow( 30px 10px 30px  rgb(255, 0, 200));
+}
+.img2{
+  
+  filter: drop-shadow( 30px 10px 30px  rgb(187, 255, 0));
+}
+.bg-se{
+  background-color:rgb(22, 17, 17)
+}
+.siva{
+  color: crimson;
+}
+:hover.icon{
+  color: brown
+  
+}
+.ab{
+  background-color: brown;
+  color: white}
+.mobile-nav{
+  @apply fixed  top-16 left-0  bg-pink-400 w-full h-1/4;
+
+}
+.mobile-nav li{
+  @apply w-full  h-full left-36 border-b-2
+}
+.pro{
+  
+  
+}
+.proj-dep{
+  @apply pro absolute left-0 right-0 bottom-0 top-0 ab opacity-0 duration-500 hover:opacity-100
+}
+.im{
+  height: 250px;
+  width: 300px;
+}
+@media screen {
+  .im{
+    height: 200px;
+    width: 200px;
+  }
+  
+}
+.btn{
+    background-color: gray;
+    margin: 1px;
+    padding: 5px;
+    
+    border: white;
+    
+    font: bold;
+    
+}
+.btn:hover{
+  border: white;
+  border-style: groove;
+}
+.con-dv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 450px;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
